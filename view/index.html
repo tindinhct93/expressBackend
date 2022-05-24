@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vanilla Axios</title>
+    <style>
+        body {
+            background-color: #673AB7;
+            color: white;
+        }
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin-bottom: .5em;
+            margin-top: .5em;
+            padding: 1em;
+            border: 1px solid white;
+            transition-property: background-color, color;
+            transition-duration: 500ms;
+            transition-timing-function: ease-in-out;
+        }
+        li:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Todos</h1>
+    <form onsubmit="return mySubmitFunction(event)">
+        <label for="myfile">Select a file:</label>
+        <input type="file" id="myfile" name="myfile" multiple><br><br>
+        <input type="submit">
+    </form>
+    <ul>
+
+    </ul>
+</div>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+    function mySubmitFunction(e) {
+        e.preventDefault();
+        //alert("OK roi")
+
+        let inputfile = document.querySelector("#myfile").files
+        let excelFiles = [];
+        var formData = new FormData();
+        for (let i = 0; i < inputfile.length; i++) {
+            formData.append('arrayOfExcelFile',inputfile[i])
+        }
+
+        f
+        console.log(formData);
+        axios({
+            method: 'post',
+            url: 'transaction/upload',
+            data: formData,
+            headers: {
+                'Content-Type': 'multipart/form-data'
+            },
+        }).then(res=>console.log(res.data));
+        return false;
+    }
+</script>
+
+
+</body>
+</html>

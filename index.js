@@ -1,11 +1,17 @@
 const express = require('express');
+const path = require('path');
 const app = express();
-//Do you need dotenv?
+
+const bodyParser = require("body-parser");
+app.use(bodyParser.json())
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //router
 app.use('/transaction',require("./routes/transactionRouter"));
 
-app.get("/", (req,res) => res.send('test.html'));
+
+let options = {root :path.join(__dirname)};
+app.get("/", (req,res) => res.sendFile('./view/index.html',options));
 
 app.get('/sync', async (req,res) => {
     try {
@@ -16,6 +22,11 @@ app.get('/sync', async (req,res) => {
         console.log(e);
         res.send('Error')
     }
+})
+
+app.use((err,req,res,next)=> {
+    console.log(err);
+    res.send("Something wrong happen in the server.")
 })
 
 app.set('port',process.env.PORT || 5000);
