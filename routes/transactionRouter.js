@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const {uploadController} = require("../controllers/transactionController")
+const {uploadController,getAllController} = require("../controllers/transactionController")
 const multer = require('multer');
 
 const storage = multer.diskStorage({
@@ -28,6 +28,7 @@ const upload = multer({
 
 
 router.post("/upload", upload.array('arrayOfExcelFile',5),uploadController);
+router.get("/history", getAllController);
 
 //export function from controller
 //router.post...................

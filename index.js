@@ -6,6 +6,13 @@ const bodyParser = require("body-parser");
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const UserModel = require('./models').User
+
+app.use((req,res,next)=>{
+    //hardcode
+    req.user = "user1";
+    next()
+})
 //router
 app.use('/transaction',require("./routes/transactionRouter"));
 
