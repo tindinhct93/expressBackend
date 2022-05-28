@@ -19,7 +19,6 @@ function findStartPoint (worksheet, word) {
 
 helper.parseExcelFile = async (file) => {
     const workbook = new exceljs.Workbook();
-
     await workbook.xlsx.readFile(`uploads/${file.filename}`);
 
     //await workbook.xlsx.readFile(file);

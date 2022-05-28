@@ -1,4 +1,3 @@
-
 const helper = require('../helper/excelParseHelper');
 const exceljs = require('exceljs');
 const History = require('../models').History;
@@ -30,7 +29,8 @@ exports.uploadController = async (req,res)=>{
             ]
         })
     }
-    res.send(transactionContent)
+    res.send(transactionContent);
+    console.log("Response sent")
 };
 
 exports.getAllController = async (req,res)=>{

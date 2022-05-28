@@ -26,7 +26,6 @@ const upload = multer({
     }
 })
 
-
 router.post("/upload", upload.array('arrayOfExcelFile',5),uploadController);
 router.get("/history", getAllController);
 

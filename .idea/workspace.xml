@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fe2b50a-d3af-4573-8392-da2f3200d195" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/helper/a-1653431291476.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/transactionController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/transactionController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helper/excelParseHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/excelParseHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/transactionRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/transactionRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +38,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/helper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontendVue" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -78,6 +75,9 @@
       <workItem from="1653429796051" duration="4002000" />
       <workItem from="1653480343407" duration="12034000" />
       <workItem from="1653519683182" duration="8818000" />
+      <workItem from="1653570238664" duration="2570000" />
+      <workItem from="1653716824312" duration="2077000" />
+      <workItem from="1653723148504" duration="880000" />
     </task>
     <servers />
   </component>
@@ -97,29 +97,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="617" height="466" key="DebuggerActiveHint/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653520435090" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1653493180233">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="-1269" y="169" key="FileChooserDialogImpl" timestamp="1653578609853">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1269" y="169" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653578609853" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653493180233" />
-    <state width="1345" height="228" key="GridCell.Tab.0.bottom" timestamp="1653531610975">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1899" height="328" key="GridCell.Tab.0.bottom" timestamp="1653718021736">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653326420557" />
+    <state width="1899" height="328" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
-    <state width="1345" height="228" key="GridCell.Tab.0.center" timestamp="1653531610975">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1899" height="328" key="GridCell.Tab.0.center" timestamp="1653718021736">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653326420557" />
+    <state width="1899" height="328" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
-    <state width="1345" height="228" key="GridCell.Tab.0.left" timestamp="1653531610974">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1899" height="328" key="GridCell.Tab.0.left" timestamp="1653718021736">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653326420557" />
+    <state width="1899" height="328" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610974" />
-    <state width="1345" height="228" key="GridCell.Tab.0.right" timestamp="1653531610975">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1899" height="328" key="GridCell.Tab.0.right" timestamp="1653718021736">
+      <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653326420557" />
+    <state width="1899" height="328" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
     <state width="1345" height="228" key="GridCell.Tab.1.bottom" timestamp="1653531610978">
       <screen x="0" y="0" width="1366" height="728" />
@@ -173,7 +174,7 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="555" y="208" key="cloudConfig.SelfSettingsDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653321957226" />
-    <state x="-1579" y="99" width="1002" height="716" maximized="true" key="dock-window-1" timestamp="1653523215142">
+    <state x="-1579" y="99" width="1002" height="716" maximized="true" key="dock-window-1" timestamp="1653578570181">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
     <state x="-1579" y="99" width="1002" height="716" maximized="true" key="dock-window-1/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653523215142" />

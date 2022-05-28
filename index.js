@@ -1,10 +1,14 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const cors = require('cors');
+require('dotenv').config();
 
 const bodyParser = require("body-parser");
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors({origin:process.env.FRONTENDOMAIN}))
+
 
 const UserModel = require('./models').User
 
