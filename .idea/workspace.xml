@@ -3,12 +3,154 @@
   <component name="ChangeListManager">
     <list default="true" id="4fe2b50a-d3af-4573-8392-da2f3200d195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/transactionController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/transactionController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/a-1653431291476.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/helper/excelParseHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/excelParseHelper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/20220523143633-create-user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/transactionRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/transactionRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sequelize" beforeDir="false" afterPath="$PROJECT_DIR$/config/s3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409269156.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409269159" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409333657" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409333660" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409613419" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409613421" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409683608" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409683614" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409691051" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409691053" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409711071" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409735973" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409756798" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409794990" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653409811442" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410041544" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410090614" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410090617" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410183373" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410183376" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410211637" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410211639" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410240863" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410240868" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410250126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410250132" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410268167" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410268172" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410410408" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410419347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410516238" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410629226" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410634721" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410682557" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410788210" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410803676" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410881271" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653410881273" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653411906583" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653411906589" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653411939671" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653411939674" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412015487" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412015489" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412047839" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412047844" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412086929" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412086932" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412086938" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412140297" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412140310" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412140313" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412140320" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412223798" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412223802" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412223808" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412223812" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653412223822" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653430777285" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653430806852" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653430933105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653430946200" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653430957750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653431035638" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653431106684" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653431291476.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653496659435" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653496704807" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653496744517" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653497037503" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653498770337" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653498784403" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653499051757" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653499111393" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653499846301" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653499939518" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653499962865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653500131688" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653500232058" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653500252593" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653500360196" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653500528775" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520350886" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520376694" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520414224" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520513299" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520531849" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520824986" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653520926489" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653521122791" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653521697482" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653522077236" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653522119522" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653522880283" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653523195912" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653523215152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653523252309" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653523294464" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653523407717" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653524002126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653524037067" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653524075174" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653526417140" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653526437599" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653526522832" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653528141913" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653528253347" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653528287051" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653528393730" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653528479714" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653529115540" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571055237" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571403009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571501404" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571504249" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571679735" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571679736" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571764039" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653571764040" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653578942979" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653578942983" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717468687" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717468692" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717602973" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717602976" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717722290" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717849631" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653717849635" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718006624" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718027502" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718027505" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718128880" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718128881" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/a-1653718237371" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +180,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../frontendVue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue3project" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
@@ -54,9 +196,13 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="transactionRouter.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/transactionRouter.js" working-dir="$PROJECT_DIR$/routes">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.transactionRouter.js" />
         <item itemvalue="Node.js.excelParseHelper.js" />
       </list>
     </recent_temporary>
@@ -77,7 +223,9 @@
       <workItem from="1653519683182" duration="8818000" />
       <workItem from="1653570238664" duration="2570000" />
       <workItem from="1653716824312" duration="2077000" />
-      <workItem from="1653723148504" duration="880000" />
+      <workItem from="1653723148504" duration="8623000" />
+      <workItem from="1653737183379" duration="2034000" />
+      <workItem from="1653740524267" duration="3042000" />
     </task>
     <servers />
   </component>
@@ -97,79 +245,96 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="617" height="466" key="DebuggerActiveHint/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653520435090" />
-    <state x="-1269" y="169" key="FileChooserDialogImpl" timestamp="1653578609853">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1653732311727">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="-1269" y="169" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653578609853" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653493180233" />
-    <state width="1899" height="328" key="GridCell.Tab.0.bottom" timestamp="1653718021736">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1653732311727" />
+    <state width="1345" height="228" key="GridCell.Tab.0.bottom" timestamp="1653744689569">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
-    <state width="1899" height="328" key="GridCell.Tab.0.center" timestamp="1653718021736">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1345" height="228" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653744689569" />
+    <state width="1345" height="228" key="GridCell.Tab.0.center" timestamp="1653744689568">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
-    <state width="1899" height="328" key="GridCell.Tab.0.left" timestamp="1653718021736">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1345" height="228" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1653744689568" />
+    <state width="1345" height="228" key="GridCell.Tab.0.left" timestamp="1653744689568">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610974" />
-    <state width="1899" height="328" key="GridCell.Tab.0.right" timestamp="1653718021736">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state width="1345" height="228" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1653744689568" />
+    <state width="1345" height="228" key="GridCell.Tab.0.right" timestamp="1653744689569">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1899" height="328" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1653718021736" />
     <state width="1345" height="228" key="GridCell.Tab.0.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610975" />
-    <state width="1345" height="228" key="GridCell.Tab.1.bottom" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1653744689569" />
+    <state width="1345" height="228" key="GridCell.Tab.1.bottom" timestamp="1653744689570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.1.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.1.center" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653744689570" />
+    <state width="1345" height="228" key="GridCell.Tab.1.center" timestamp="1653744689569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.1.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.1.left" timestamp="1653531610977">
+    <state width="1345" height="228" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1653744689569" />
+    <state width="1345" height="228" key="GridCell.Tab.1.left" timestamp="1653744689569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.1.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610977" />
-    <state width="1345" height="228" key="GridCell.Tab.1.right" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1653744689569" />
+    <state width="1345" height="228" key="GridCell.Tab.1.right" timestamp="1653744689569">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.1.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.2.bottom" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1653744689569" />
+    <state width="1345" height="228" key="GridCell.Tab.2.bottom" timestamp="1653744689571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.2.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.2.center" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653744689571" />
+    <state width="1345" height="228" key="GridCell.Tab.2.center" timestamp="1653744689570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.2.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.2.left" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1653744689570" />
+    <state width="1345" height="228" key="GridCell.Tab.2.left" timestamp="1653744689570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.2.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.2.right" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1653744689570" />
+    <state width="1345" height="228" key="GridCell.Tab.2.right" timestamp="1653744689570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.2.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.3.bottom" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1653744689570" />
+    <state width="1345" height="228" key="GridCell.Tab.3.bottom" timestamp="1653744689571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.3.bottom/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.3.center" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1653744689571" />
+    <state width="1345" height="228" key="GridCell.Tab.3.center" timestamp="1653744689571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.3.center/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.3.left" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1653744689571" />
+    <state width="1345" height="228" key="GridCell.Tab.3.left" timestamp="1653744689571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.3.left/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
-    <state width="1345" height="228" key="GridCell.Tab.3.right" timestamp="1653531610978">
+    <state width="1345" height="228" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1653744689571" />
+    <state width="1345" height="228" key="GridCell.Tab.3.right" timestamp="1653744689571">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="228" key="GridCell.Tab.3.right/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653531610978" />
+    <state width="1345" height="228" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1653744689571" />
     <state x="555" y="208" key="cloudConfig.SelfSettingsDialog" timestamp="1653321957226">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,5 +355,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1653520334692" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/controllers/transactionController.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="NodeJSConfigurationType">
+        <watch expression="req.file" language="JavaScript" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
