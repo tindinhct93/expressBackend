@@ -25,7 +25,7 @@ exports.uploadController = async (req,res)=>{
     });
 
     await History.create({
-        excelFile: fileName,s
+        excelFile: fileName,
         TransactionMoneys: excelFileContent
         },
         {
