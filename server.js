@@ -25,8 +25,8 @@ app.get('/sync', async (req,res) => {
 })
 
 app.use((err,req,res,next)=> {
-    console.log(err);
-    res.send("Something wrong happen in the server.")
+    console.log(typeof(err))
+    res.status(501).json({ error: err.message })
 })
 
 app.set('port',process.env.PORT || 5000);
