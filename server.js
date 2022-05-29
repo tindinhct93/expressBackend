@@ -9,21 +9,10 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors({origin:process.env.FRONTENDOMAIN}))
 
-
-const UserModel = require('./models').User
-
-app.use((req,res,next)=>{
-    //hardcode
-    req.user = "user1";
-    next()
-})
 //router
 app.use('/transaction',require("./routes/transactionRouter"));
 
-
-let options = {root :path.join(__dirname)};
-app.get("/", (req,res) => res.sendFile('./view/index.html',options));
-
+//function to create the database, will be remove in real life.
 app.get('/sync', async (req,res) => {
     try {
         let models = require('./models');

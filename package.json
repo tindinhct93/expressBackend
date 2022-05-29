@@ -2,7 +2,7 @@
   "name": "expressbackend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,10 @@
   "keywords": [
     "backend"
   ],
+  "engines" : {
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "author": "TinDinh",
   "license": "ISC",
   "bugs": {
@@ -20,6 +24,7 @@
   },
   "homepage": "https://github.com/tindinhct93/expressBackend#readme",
   "dependencies": {
+    "aws-sdk": "^2.353.0",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.1",
@@ -27,9 +32,11 @@
     "express": "^4.18.1",
     "express-fileupload": "^1.3.1",
     "multer": "^1.4.4",
+    "multer-s3": "^3.0.0",
     "mysql2": "^2.3.3",
     "pg": "^8.7.3",
     "sequelize": "^6.20.0",
-    "sequelize-cli": "^6.4.1"
+    "sequelize-cli": "^6.4.1",
+    "uuidv4": "^6.2.13"
   }
 }

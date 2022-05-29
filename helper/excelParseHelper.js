@@ -2,8 +2,6 @@
 // output: Error or parse content
 const helper = {};
 const exceljs = require('exceljs');
-const Stream =require('stream');
-const path = require('path');
 
 
 function findStartPoint (worksheet, word) {
@@ -18,8 +16,9 @@ function findStartPoint (worksheet, word) {
 }
 
 helper.parseExcelFile = async (file) => {
+    try {
     const workbook = new exceljs.Workbook();
-    await workbook.xlsx.readFile(`uploads/${file.filename}`);
+    await workbook.xlsx.load(file);
 
     //await workbook.xlsx.readFile(file);
     // Lay file name luu vao bang 1.
@@ -49,13 +48,11 @@ helper.parseExcelFile = async (file) => {
         result.push(value)
     }
     console.log(result)
-    return result
+    return result }
+    catch (e) {
+        console.log(e);
+        next(e)
+    }
 }
-
-/*
-helper.parseExcelFile(`a-1653431291476.xlsx`).then(
-    content => console.log(content)
-).catch(e=>console.log(e))
-*/
 
 module.exports = helper;
