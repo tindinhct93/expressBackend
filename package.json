@@ -2,7 +2,7 @@
   "name": "expressbackend",
   "version": "1.0.0",
   "description": "backend",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,10 @@
   "keywords": [
     "backend"
   ],
+  "engines" : {
+    "npm" : ">=7.0.0",
+    "node" : ">=16.0.0"
+  },
   "author": "TinDinh",
   "license": "ISC",
   "bugs": {
