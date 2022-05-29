@@ -37,9 +37,10 @@ exports.uploadController = async (req,res)=>{
 
 exports.getAllController = async (req,res)=>{
     let options = {
-        attributes: ["DatePost","content","amount","excelFile"],
+        attributes: ["DatePost","content","amount"],
         include: [{
             model: History,
+            attributes:['excelFile']
         }]
     }
     let transactions = await TransactionMoney.findAll(options);
