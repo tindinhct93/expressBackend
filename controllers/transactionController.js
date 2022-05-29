@@ -36,7 +36,6 @@ exports.uploadController = async (req,res)=>{
 };
 
 exports.getAllController = async (req,res)=>{
-    const user = await (UserModel.findOne({name:req.user}));
     let options = {
         field: ["DatePost","content","amount"],
         include: [{
