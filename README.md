@@ -20,7 +20,7 @@ $ git clone git@github.com/tindinhct93/expressBackend.git
 Go into the project directory and run the command:
 
 ```
-$ node app.js
+$ node server.js
 ```
 
 Create the MySQL Database, migrate it: 
