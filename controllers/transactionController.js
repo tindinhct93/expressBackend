@@ -37,7 +37,7 @@ exports.uploadController = async (req,res)=>{
 
 exports.getAllController = async (req,res)=>{
     let options = {
-        field: ["DatePost","content","amount"],
+        attributes: ["DatePost","content","amount","excelFile"],
         include: [{
             model: History,
         }]

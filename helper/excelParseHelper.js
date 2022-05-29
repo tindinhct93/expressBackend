@@ -16,6 +16,7 @@ function findStartPoint (worksheet, word) {
 }
 
 helper.parseExcelFile = async (file) => {
+    try {
     const workbook = new exceljs.Workbook();
     await workbook.xlsx.load(file);
 
@@ -47,7 +48,11 @@ helper.parseExcelFile = async (file) => {
         result.push(value)
     }
     console.log(result)
-    return result
+    return result }
+    catch (e) {
+        console.log(e);
+        next(e)
+    }
 }
 
 module.exports = helper;
